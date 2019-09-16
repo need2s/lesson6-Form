@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-flow: column;
+    background: silver;
+    border: 1px inset black;
+    margin: auto;
+    width: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.form input {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form input[type="radio"] {
+    width: auto;
+}
+.form input[type="text"]{
+    padding: 5px;
+
+}
+.form button{
+    padding: 5px;
+    transition: 5s;
+    border: none;
+}
+.form button:hover{
+    background: black;
+    cursor: pointer;
+    color: white;
+
+}
+
